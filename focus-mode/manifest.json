@@ -20,6 +20,15 @@
       "128": "images/icon-128.png"
     }
   },
-   "permissions": ["activeTab"]
+  "permissions": ["activeTab", "scripting"],
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+B",
+        "mac": "Command+B"
+      }
+    }
+  }
+
 
 }
