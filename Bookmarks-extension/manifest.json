@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "My Bookmarks",
+  "version": "1.0",
+  "description": "Displays all bookmarks when clicked.",
+  "permissions": [
+    "bookmarks"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
